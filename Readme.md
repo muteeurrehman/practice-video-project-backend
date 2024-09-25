@@ -29,7 +29,7 @@ This repository contains the backend for a YouTube-like practice application. Th
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/practice-video-project-backend.git
+    git clone https://github.com/muteeurrehman/practice-video-project-backend.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -57,27 +57,16 @@ This repository contains the backend for a YouTube-like practice application. Th
     ```
 2. The server will be running on `http://localhost:3000`.
 
-## API Endpoints
-
-- `POST /api/auth/register` - Register a new user
-- `POST /api/auth/login` - Login a user
-- `GET /api/videos` - Get all videos
-- `POST /api/videos` - Upload a new video
-- `GET /api/videos/:id` - Get a specific video
-- `POST /api/videos/:id/comments` - Add a comment to a video
-- `POST /api/videos/:id/like` - Like a video
-- `POST /api/videos/:id/dislike` - Dislike a video
-
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the ISC License.
 
 ## Contact
 
 For any inquiries, please contact [mutee.ur.rehman786@gmail.com].
 
-[Model Link] - https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj
+[Model Link] - (https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
