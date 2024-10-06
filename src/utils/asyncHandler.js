@@ -20,13 +20,16 @@
 
 // export default asyncHandler;
 
-const asyncHandler = (requestHandler) => async (req, res, next) => {
-  try {
-    await requestHandler(req, res, next);
-  } catch (err) {
-    res.status(500).send({ message: err.message });
-    next(err);
-  }
+
+const asyncHandler = (requestHandler) => {
+  return async (req, res, next) => {
+    try {
+      await requestHandler(req, res, next);
+    } catch (err) {
+      res.status(500).send({ message: err.message });
+      next(err);
+    }
+  };
 };
 
 export default asyncHandler;
